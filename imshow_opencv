@@ -1,0 +1,17 @@
+import cv2 as cv
+import numpy as npi
+import haarcascades as hcs
+#import pytesseracst as tess
+
+cap = cv.VideoCapture(0)
+print(cv.__version__)
+
+cv.CascadeClassifier()
+muka = cv.imread('')
+image = cv.imread('gg.png')
+#text = tess.image_to_string(image)
+cv.imshow('frame', image)
+
+
+cv.waitKey(0)
+cv.destroyAllWindows()
